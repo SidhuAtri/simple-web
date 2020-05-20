@@ -1,0 +1,10 @@
+1. Download and extract zip file on Desktop.
+2. Download and run Docker on Pc.
+3. Open Command Line and write the following command to run it : 
+    
+    > cd Desktop/simple-web
+    > docker build -t <dockerid>/simpleweb .
+    > docker run -p 8080:8080 <dockerid>/simpleweb
+    
+4. Open Browser and go to localhost:8080
+5. Output will be displayed.
